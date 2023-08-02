@@ -38,5 +38,19 @@ void main() {
       print("bye");
     }
   }
-  
+  List<String> userNames = ['ahmet', 'mehmet', 'ali'];
+  for (var element in userNames) {
+    if(element == 'ali'){
+      print('bulundu');
+    }
+    else{
+      print("yok");
+    }
+  }
+   if(userNames.contains("ali")){
+      print('bulundu');
+    }
+    else{
+      print("yok");
+    }
 }
