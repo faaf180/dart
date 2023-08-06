@@ -1,6 +1,7 @@
 void main() {
   User user = User("ferdi", 120);
   user.sayMoneyWithBankName();
+  BankUser bankuser = BankUser("ferdi", 150, "abc");
 }
 
 abstract class IUser {
